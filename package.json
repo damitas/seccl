@@ -1,0 +1,21 @@
+{
+  "name": "seccl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=list",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11",
+    "eslint-plugin-playwright": "^1.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
